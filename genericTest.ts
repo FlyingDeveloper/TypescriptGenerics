@@ -8,7 +8,7 @@ class GenCollection<T> {
     }   
  
     first() {
-      return this.collection[0];
+      return this.collection.length > 0 ? this.collection[0] : null;
     }i
 
     add(item : T) {
