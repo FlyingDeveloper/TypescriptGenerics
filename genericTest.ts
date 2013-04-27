@@ -7,7 +7,7 @@ class GenCollection<T> {
       this.collection = new Array<T>();
     }   
  
-    first() {
+    first() : T {
       return this.collection.length > 0 ? this.collection[0] : null;
     }i
 
